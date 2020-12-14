@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="searchTestsuit" time="409.452" tests="1" failures="0" errors="0">
+   <testsuite name="searchTestsuit" tests="1" failures="0" errors="0" time="409.452" timestamp="2020-12-10 13:42:49" hostname="chizeth - amaka-mac" id="Test Suites/searchTestsuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chizeth\\git\\skooleeoTest\\Reports\\20201210_134111\\searchTestsuit\\20201210_134116"/>
+         <property name="logFiles" value="C:\\Users\\chizeth\\git\\skooleeoTest\\Reports\\20201210_134111\\searchTestsuit\\20201210_134116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chizeth - amaka-mac"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.173"/>
+         <property name="sessionId" value="98df9114c2ff5c90d9cb2e59013f3c6b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/searchTest" time="396.991" classname="Test Cases/searchTest" status="PASSED">
+         <system-out><![CDATA[2020-12-10 13:42:51 - [TEST_CASE][PASSED] - Test Cases/searchTest: Test Cases/searchTest
+
+2020-12-10 13:42:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-10 13:42:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-10 13:42:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-10 13:43:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-10 13:43:42 - [TEST_STEP][PASSED] - navigateToUrl("http://skooleeo-app.com/"): Navigate to 'http://skooleeo-app.com/' successfully
+
+2020-12-10 13:45:21 - [MESSAGE][PASSED] - Navigate to 'http://skooleeo-app.com/' successfully
+
+2020-12-10 13:45:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo - School Management System an_9ec0ce/a_Sign In")): Object: 'Object Repository/Page_Skooleeo - School Management System an_9ec0ce/a_Sign In' is clicked on
+
+2020-12-10 13:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo - School Management System an_9ec0ce/a_Sign In' is clicked on
+
+2020-12-10 13:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Skooleeo/input_Sign In_form-control"), "S0000001"): Text 'S0000001' is set on object 'Object Repository/Page_Skooleeo/input_Sign In_form-control'
+
+2020-12-10 13:45:56 - [MESSAGE][PASSED] - Text 'S0000001' is set on object 'Object Repository/Page_Skooleeo/input_Sign In_form-control'
+
+2020-12-10 13:45:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Skooleeo/input_Sign In_form-control_1"), "/dTC0zkZWCU="): Text ****** has been set on object 'Object Repository/Page_Skooleeo/input_Sign In_form-control_1'
+
+2020-12-10 13:45:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Skooleeo/input_Sign In_form-control_1'
+
+2020-12-10 13:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo/button_Sign In")): Object: 'Object Repository/Page_Skooleeo/button_Sign In' is clicked on
+
+2020-12-10 13:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo/button_Sign In' is clicked on
+
+2020-12-10 13:45:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q"), "mathematics"): Text 'mathematics' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:27 - [MESSAGE][PASSED] - Text 'mathematics' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q"), "podcasts"): Text 'podcasts' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:40 - [MESSAGE][PASSED] - Text 'podcasts' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo Learning Center/i_Back_fas fa-search")): Object: 'Object Repository/Page_Skooleeo Learning Center/i_Back_fas fa-search' is clicked on
+
+2020-12-10 13:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo Learning Center/i_Back_fas fa-search' is clicked on
+
+2020-12-10 13:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q")): Object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q' is clicked on
+
+2020-12-10 13:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q' is clicked on
+
+2020-12-10 13:46:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:47:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Skooleeo Learning Center/input_Back_q"), "podcasts"): Text 'podcasts' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:47:07 - [MESSAGE][PASSED] - Text 'podcasts' is set on object 'Object Repository/Page_Skooleeo Learning Center/input_Back_q'
+
+2020-12-10 13:47:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo Learning Center/img_Courses_img-fluid")): Object: 'Object Repository/Page_Skooleeo Learning Center/img_Courses_img-fluid' is clicked on
+
+2020-12-10 13:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo Learning Center/img_Courses_img-fluid' is clicked on
+
+2020-12-10 13:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo Learning Center/div_Senior                                 _3b28a5")): Object: 'Object Repository/Page_Skooleeo Learning Center/div_Senior                                 _3b28a5' is clicked on
+
+2020-12-10 13:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo Learning Center/div_Senior                                 _3b28a5' is clicked on
+
+2020-12-10 13:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Skooleeo Learning Center/div_Senior Secondary School 3")): Object: 'Object Repository/Page_Skooleeo Learning Center/div_Senior Secondary School 3' is clicked on
+
+2020-12-10 13:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Skooleeo Learning Center/div_Senior Secondary School 3' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-10 13:42:49 - [TEST_SUITE][PASSED] - searchTestsuit: Test Cases/searchTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

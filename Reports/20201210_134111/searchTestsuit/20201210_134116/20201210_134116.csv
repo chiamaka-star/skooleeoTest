@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+searchTestsuit,Chrome 87.0.4280.88,,,2020-12-10 13:42:49,2020-12-10 13:49:28,6m - 39.305s,PASSED
+,,,,,,,
+Test Cases/searchTest,Chrome 87.0.4280.88,,,2020-12-10 13:42:51,2020-12-10 13:49:28,6m - 36.991s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-10 13:42:54,2020-12-10 13:43:42,47.787s,PASSED
+"navigateToUrl(""http://skooleeo-app.com/"")",Chrome 87.0.4280.88,,,2020-12-10 13:43:42,2020-12-10 13:45:21,1m - 39.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo - School Management System an_9ec0ce/a_Sign In""))",Chrome 87.0.4280.88,,,2020-12-10 13:45:21,2020-12-10 13:45:50,29.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Skooleeo/input_Sign In_form-control""), ""S0000001"")",Chrome 87.0.4280.88,,,2020-12-10 13:45:50,2020-12-10 13:45:56,5.241s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Skooleeo/input_Sign In_form-control_1""), ""/dTC0zkZWCU="")",Chrome 87.0.4280.88,,,2020-12-10 13:45:56,2020-12-10 13:45:58,2.287s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo/button_Sign In""))",Chrome 87.0.4280.88,,,2020-12-10 13:45:58,2020-12-10 13:45:59,0.974s,PASSED
+"setText(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""), ""mathematics"")",Chrome 87.0.4280.88,,,2020-12-10 13:45:59,2020-12-10 13:46:27,28.247s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""), Keys.chord(ENTER))",Chrome 87.0.4280.88,,,2020-12-10 13:46:27,2020-12-10 13:46:35,7.847s,PASSED
+"setText(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""), ""podcasts"")",Chrome 87.0.4280.88,,,2020-12-10 13:46:35,2020-12-10 13:46:40,4.761s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo Learning Center/i_Back_fas fa-search""))",Chrome 87.0.4280.88,,,2020-12-10 13:46:40,2020-12-10 13:46:41,1.101s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""))",Chrome 87.0.4280.88,,,2020-12-10 13:46:41,2020-12-10 13:46:42,0.856s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""), Keys.chord(ENTER))",Chrome 87.0.4280.88,,,2020-12-10 13:46:42,2020-12-10 13:47:02,20.246s,PASSED
+"setText(findTestObject(""Object Repository/Page_Skooleeo Learning Center/input_Back_q""), ""podcasts"")",Chrome 87.0.4280.88,,,2020-12-10 13:47:02,2020-12-10 13:47:07,4.644s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo Learning Center/img_Courses_img-fluid""))",Chrome 87.0.4280.88,,,2020-12-10 13:47:07,2020-12-10 13:47:15,8.036s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo Learning Center/div_Senior                                 _3b28a5""))",Chrome 87.0.4280.88,,,2020-12-10 13:47:15,2020-12-10 13:49:14,1m - 59.336s,PASSED
+"click(findTestObject(""Object Repository/Page_Skooleeo Learning Center/div_Senior Secondary School 3""))",Chrome 87.0.4280.88,,,2020-12-10 13:49:14,2020-12-10 13:49:28,13.902s,PASSED
